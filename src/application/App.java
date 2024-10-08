@@ -73,14 +73,14 @@ public class App {
 //		sellerDao.insert(newSeller);
 //		System.out.println("\r\nNew seller, id: " + newSeller.getId());
 		
-		Seller  seller = sellerDao.findById(2);
-		seller.setName("João");
-		sellerDao.update(seller);
-		System.out.println("\r\nUpdate seller, id: " + seller);
-		
-		Integer id = 2;
-		System.out.println("\r\nDelete seller, id: "+id);
-		sellerDao.deleteById(id);
+//		Seller  seller = sellerDao.findById(2);
+//		seller.setName("João");
+//		sellerDao.update(seller);
+//		System.out.println("\r\nUpdate seller, id: " + seller);
+//		
+//		Integer id = 2;
+//		System.out.println("\r\nDelete seller, id: "+id);
+//		sellerDao.deleteById(id);
 		
 		
 //		Department d=  new Department(2, "Finance");
