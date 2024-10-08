@@ -22,7 +22,6 @@ public class DB {
 			} catch (SQLException e) {
 				throw new DbException(e.getMessage());
 			}
-
 		}
 		return conn;
 	}
